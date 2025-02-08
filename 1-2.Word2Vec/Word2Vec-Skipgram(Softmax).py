@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def random_batch():
     random_inputs = []
     random_labels = []
-    random_index = np.random.choice(range(len(skip_grams)), batch_size, replace=False)
+    random_index = np.random.choice(range(len(skip_grams)), batch_size, replace=False)  
 
     for i in random_index:
         random_inputs.append(np.eye(voc_size)[skip_grams[i][0]])  # target
