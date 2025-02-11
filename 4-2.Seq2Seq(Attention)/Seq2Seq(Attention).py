@@ -1,6 +1,3 @@
-# %%
-# code by Tae Hwan Jung @graykode
-# Reference : https://github.com/hunkim/PyTorchZeroToAll/blob/master/14_2_seq2seq_att.py
 import numpy as np
 import torch
 import torch.nn as nn
